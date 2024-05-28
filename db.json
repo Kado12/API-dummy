@@ -1,36 +1,31 @@
 {
-  "fecha": "2024-05-28",
-  "personal_disponible": [
+  "publicaciones": [
     {
-      "nombre": "Silvia Biana",
-      "horario": [
-        "8:00 - 12:00",
-        "14:00-18:00"
-      ],
-      "id": "123456"
+      "identificación": 1,
+      "título": "Publicación 1"
     },
     {
-      "nombre": "Lorena García",
-      "horario": [
-        "13:00-19:00"
-      ],
-      "id": "234567"
+      "identificación": 2,
+      "título": "Publicación 2"
     },
     {
-      "nombre": "Susana Salas",
-      "horario": [
-        "9:00 - 12:00",
-        "16:00-20:00"
-      ],
-      "id": "345678"
-    },
-    {
-      "nombre": "Silvia Biana",
-      "horario": [
-        "8:00 - 12:00",
-        "14:00-18:00"
-      ],
-      "id": "456789"
+      "identificación": 3,
+      "título": "Publicación 3"
     }
-  ]
+  ],
+  "comentarios": [
+    {
+      "identificación": 1,
+      "cuerpo": "algún comentario",
+      "ID de publicación": 1
+    },
+    {
+      "identificación": 2,
+      "cuerpo": "algún comentario",
+      "ID de publicación": 1
+    }
+  ],
+  "perfil": {
+    "nombre": "código típico"
+  }
 }
